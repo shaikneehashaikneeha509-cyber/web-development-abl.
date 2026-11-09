@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Delicious Bites</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      padding: 25px;
+      color: white;
+      background-color: #294b35;
+      text-align: center;
+    }
+
+    nav {
+      padding: 12px;
+      background-color: #e3eadf;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 10px;
+      color: #294b35;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .offer {
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: #ffe69a;
+      text-align: center;
+    }
+
+    .food-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .food {
+      width: 220px;
+      padding: 12px;
+      background-color: white;
+      border-radius: 8px;
+    }
+
+    .food img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .price {
+      color: #294b35;
+      font-weight: bold;
+    }
+
+    button {
+      padding: 9px 14px;
+      color: white;
+      background-color: #e66b35;
+      border: none;
+      border-radius: 5px;
+    }
+
+    @media (max-width: 600px) {
+      .food {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Quick Bites</h1>
+    <p>Fresh food made with care</p>
+    <p>Rating: ★★★★☆ | Open: 10 AM - 10 PM</p>
+  </header>
+
+  <nav>
+    <a href="#meals">Meals</a>
+    <a href="#drinks">Drinks</a>
+    <a href="#reviews">Reviews</a>
+  </nav>
+
+  <main>
+    <section class="offer">
+      <h2>Today's Offer</h2>
+      <p>Buy one burger and get a free drink!</p>
+    </section>
+
+    <h2 id="meals">Popular Meals</h2>
+
+    <div class="food-list">
+      <div class="food">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.PnJ_FvGvgQr64iqzT96YtgHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"alt="Pizza">
+        <h3>Cheese Pizza</h3>
+        <p>Cheese, tomato, and fresh herbs.</p>
+        <p class="price">Rs 200</p>
+        <button>Order</button>
+      </div>
+
+      <div class="food">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.DYV9Qq7NucJ5ixL2eBk5FQHaFZ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Burger">
+        <h3>Chicken Burger</h3>
+        <p>Chicken, lettuce, and special sauce.</p>
+        <p class="price">Rs 160</p>
+        <button>Order</button>
+      </div>
+
+      <div class="food" id="drinks">
+        <img src="https://www.shutterstock.com/image-photo/mango-juice-fresh-tropical-fruit-260nw-2265975467.jpg" alt="Mango juice">
+        <h3>Orange Juice</h3>
+        <p>Freshly squeezed mango juice.</p>
+        <p class="price">Rs 70</p>
+        <button>Order</button>
+      </div>
+    </div>
+
+    <section id="reviews">
+      <h2>Customer Reviews</h2>
+      <p>“Fresh food and friendly service!” — Navya</p>
+      <p>“The burger was delicious.” — Neeha</p>
+    </section>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Dashboard</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f2f4f8;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #552445;
+    color: white;
+    position: fixed;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+0
+
+0
+1
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.main {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    display: inline-block;
+    width: 180px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+th {
+    background-color: #552455;
+    color: white;
+}
+
+.progress {
+    background-color: lightgray;
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.bar {
+    background-color: green;
+    width: 90%;
+    height: 15px;
+    border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+    <h2>Dashboard</h2>
+    <a href="#">Home</a>
+    <a href="#">Student Details</a>
+    <a href="#">Results</a>
+    <a href="#">Attendance</a>
+    <a href="#">Exams</a>
+    <a href="#">Announcements</a>
+</div>
+
+<div class="main">
+
+<h1>Student Academic Dashboard</h1>
+
+<h2>Student Details</h2>
+
+<div class="card">
+    <h3>Name</h3>
+    <p>Neeha</p>
+</div>
+
+<div class="card">
+    <h3>Course</h3>
+    <p>B.Tech CSE</p>
+</div>
+
+<div class="card">
+    <h3>Year</h3>
+    <p>1st Year</p>
+</div>
+
+<h2>Semester Results</h2>
+
+<table>
+<tr>
+    <th>Subject</th>
+    <th>Marks</th>
+</tr>
+<tr>
+    <td>Mathematics</td>
+    <td>85</td>
+</tr>
+<tr>
+    <td>Python</td>
+    <td>90</td>
+</tr>
+<tr>
+    <td>Physics</td>
+    <td>78</td>
+</tr>
+<tr>
+    <td>English</td>
+    <td>88</td>
+</tr>
+</table>
+
+<h2>Attendance</h2>
+
+<p>Overall Attendance: 90%</p>
+
+<div class="progress">
+    <div class="bar"></div>
+</div>
+
+<h2>Examination Schedule</h2>
+
+<table>
+<tr>
+    <th>Subject</th>
+    <th>Date</th>
+</tr>
+<tr>
+    <td>Mathematics</td>
+    <td>10-11-2026</td>
+</tr>
+<tr>
+    <td>Python</td>
+    <td>12-11-2026</td>
+</tr>
+<tr>
+    <td>Physics</td>
+    <td>15-11-2026</td>
+</tr>
+</table>
+
+<h2>Announcements</h2>
+
+<ul>
+    <li>Internal exams start soon.</li>
+    <li>Submit assignments on time.</li>
+    <li>Check attendance regularly.</li>
+</ul>
+
+</div>
+</body>
+</html>
+
